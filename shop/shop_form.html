@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>PHPポートフォリオ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="wrap">
+  <div class="menu-wrapper">
+  <div class="header">
+    <h1 class="title">IMAGINARY<br />CAFE</h1>
+    <nav>
+      <ul class="header-menu">
+        <li><a href="top.html">TOP</a></li>
+        <li><a href="menu.php">MENU</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="../staff_login/staff_login_branch.ph">スタッフの方はこちら</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="header-title center">
+    <h2 class="title">ご購入手続き</h2>
+  </div>
+
+</div>
+<div class="menu-content">
+  <form action="form_check.php" method="post">
+    <h3>お客様情報を入力してください。</h3>
+    <p>このサイトは架空のものですので、実際にお金のやりとりが発生することはございません。<br>個人情報は嘘で大丈夫ですが、正しいメールアドレスを打っていただくと確認メールが届きます。</p>
+  　<p>お名前</p>
+    <input type="text" name="onamae" class="form-control" style="width:200px">
+    <p>メールアドレス</p>
+    <input type="text" name="email" class="form-control" style="width:300px">
+    <p>郵便番号</p>
+    <input type="text" name="postal1" class="form-control" style="width:150px">ー
+    <input type="text" name="postal2" class="form-control" style="width:200px">
+    <p>住所</p>
+    <input type="text" name="address" class="form-control" style="width:400px">
+    <p>電話番号</p>
+    <input type="text" name="tel" class="form-control" style="width:200px">
+  <input type="button" onclick="history.back()" value="戻る" class="btn btn-primary mt-3">
+  <input type="submit" class="btn btn-primary mt-3" value="OK">
+</form>
+
+
+</div>
+</div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>                            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+</body>
+</html>
